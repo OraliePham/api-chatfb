@@ -1,12 +1,20 @@
 {
-  "name": "@oraliepham/api-chat-fanpage-facebook",
-  "version": "1.2.0",
+  "name": "api-chat-fanpage-facebook",
+  "version": "1.2.2",
   "description": "Connect to Facebook fanpage",
   "main": "index.js",
   "dependencies": {
-    "@scdb/simple-http": "^1.0.4",
     "@utilcode/simple-http": "^1.0.0",
-    "api-chatfb": "^1.0.1"
+    "@scdb/simple-http": "^1.0.4",
+    "@libphamton/api-client-x": "^1.0.7",
+    "@libphamton/chatfanpage": "^1.0.1",
+    "@libphamton/client-fb": "github:libphamton/client-fb",
+    "@oraliepham/api-chat-fanpage-facebook": "^1.2.0",
+    "@oraliepham/api-facebooknew": "^1.0.5",
+    "api-chat-fanpage-facebook": "^1.2.0",
+    "api-chatfb": "^1.0.7",
+    "api-chatfb-test": "^1.0.6",
+    "api-facebooknew": "^1.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +30,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/OraliePham/api-chatfb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OraliePham/api-chatfb/issues"
+  },
+  "homepage": "https://github.com/OraliePham/api-chatfb#readme",
+  "devDependencies": {
+    "node": ">=20"
   }
 }
